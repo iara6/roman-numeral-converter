@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh; 
+  background-color: rgb(120, 100, 90, 0.5);
+  font-family: Oswald, sas-serif;
+  text-align: center;
+}
+
+#number {
+  padding: 0.2rem;
+  height: 2.5rem;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.input-div,
+.output-div {
+  background-color: rgb(111, 85, 96, 0.8);
+  border: 2px dotted black;
+  width: 90%;
+  padding: 1rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.output-div {
+  color: rgb(224, 214, 244);
+}
+label {
+  color: rgb(224, 214, 244);
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+#convert-btn {
+  width: 100%;
+  padding: 0.3rem;
+  cursor: pointer;
+  background-color: rgb(200, 80, 100, 0.7);
+  border: 1px solid black;
+}
